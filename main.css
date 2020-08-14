@@ -1,0 +1,99 @@
+body{
+    font-family: 'Indie Flower', cursive;
+}
+
+.height{
+    min-height: 100vh;
+}
+
+.nav-item{
+    list-style: none;
+    font-size: 1rem;
+}
+
+.nav-link{
+    color: #F15025;
+}
+
+.nav-link:hover{
+    color: aqua;
+    cursor: pointer;
+    border: 2px solid blue;
+    font-size: 3rem;
+}
+
+.banner-center{
+    background: url(../photos/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* parallax affects */
+    background-attachment: fixed;
+}
+
+.banner-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.banner-underline{
+    width: 30%;
+    height: 5px;
+    background-color: coral;
+}
+
+.buttons{
+    font-size: 1rem;
+    color: whitesmoke;
+    border-radius: 1rem;
+}
+
+.btn:hover,
+.btn:focus{
+    color: #F15025;
+    background-color: whitesmoke;
+}
+
+.bg{
+    background-color: #CED0CE;
+}
+
+.about-image{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#project{
+    background-color: #2D3142;
+    color: whitesmoke;
+}
+
+.project-underline{
+    width: 30%;
+    height: 5px;
+    background-color: red;
+}
+
+.about-image{
+    background-size: cover;
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.height-50{
+    min-height: 50vh;
+}
+
+.bg{
+    background-color: black;
+}
